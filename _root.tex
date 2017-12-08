@@ -1,0 +1,41 @@
+\documentclass[a4paper,uplatex,dvipdfmx,ja=standard,12pt,jafont=noalphabet]{bxjsbook}
+%\documentclass[a4paper,uplatex,dvipdfmx,ja=standard,12pt,jafont=noalphabet,openany,oneside]{bxjsbook} % draft
+\usefontmapfile{yu-win10.map} %游フォントを使う。好み
+
+\usepackage[phd,print]{Thesis}
+%\usepackage[draft,phd]{Thesis} % for draft version
+%%%%%%%%% タイトルページの設定 %%%%%%%%%%%%%%%%%%
+\nendo{29}
+\thesistype{博士}
+\title{日本語タイトル}
+\etitle{English title}
+\kyokanA{正 指導教官}{教授}
+\kyokanB{副 指導教官}{准教授}
+\affiliation{XX大学 大学院}
+\major{YY専攻}
+
+\regnum{studentId}
+\author{Your name}
+
+\begin{document}
+\maketitle
+
+\frontmatter
+\tableofcontents
+\listoffigures
+\listoftables
+
+\mainmatter
+\input{chapter1}
+\input{chapter2}
+\input{chapter3}
+\input{chapter4}
+\input{chapter5}
+\input{chapter6}
+\input{conclusion}
+
+\input{appendix}
+\bibliography{references}	
+\input{achievements}
+\input{acknowledgments}
+\end{document}
