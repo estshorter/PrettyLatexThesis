@@ -1,11 +1,8 @@
 \ProvidesPackage{Thesis}
-\newif\if@draft
 \newif\if@phd
 \newif\if@print
-\@draftfalse
 \@phdfalse
 \@printfalse
-\DeclareOption{draft}{\@drafttrue}
 \DeclareOption{phd}{\@phdtrue}
 \DeclareOption{print}{\@printtrue}
 % 変数定義
@@ -112,11 +109,7 @@
 \usepackage{pxjahyper}
 
 % 図を挿入するために必要
-\if@draft
-\usepackage[draft]{graphicx} 
-\else
 \usepackage{graphicx}
-\fi
 
 %figure 関係
 \usepackage[subrefformat=parens]{subcaption} 
