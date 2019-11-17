@@ -7,9 +7,9 @@
 # 使い方
 `_root.tex`をコンパイルしてください。
 
-- 同ファイル中の`bxjsarticle`の読み込み時に`draft`オプションをつけると画像が非表示になるので文章だけ確認したいときに便利です。
-- 博士論文はネットで公開されるため学籍番号を非表示にする必要があります。そのためのThesisクラスへのオプションが`phd`です。
+- 同ファイル中の`bxjsarticle`の読み込み時に`draft`オプションをつけると画像が非表示になるので、文章だけ確認したいときに便利です。
+- 博士論文はネットで公開されるため、学籍番号を非表示にする必要があります。そのためのThesisクラスへのオプションが`phd`です。
 - Thesis読み込み時に`print`オプションをつけると、のりしろを考慮した余白になります
 
 ## Thesis.cwl
-Texstudio使用者は`Thesis.cwl`を`%APPDATA%\texstudio\completion\user`に入れるとエディタで補完が効くようになります。
+Texstudio使用者は`Thesis.cwl`を`%APPDATA%\texstudio\completion\user`に入れると、エディタで補完が効くようになります。
